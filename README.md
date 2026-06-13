@@ -12,16 +12,7 @@ A hybrid semantic book recommendation engine designed to find books based on nat
 *   **Sub-Second Startup (Chroma Persistence):** Configured local storage for **Chroma DB** (`./chroma_db`). Vector indexing of the book database is cached on the first launch, enabling immediate, zero-latency startup on subsequent runs.
 *   **Interactive Web UI & Public Sharing:** Designed a responsive, split-pane dashboard using **Gradio** featuring a customized glassmorphic interface, where recommendations populate on the left and the AI analyst insights populate on the right. Enabled temporary public link sharing for easy remote testing.
 
----
 
-## 🔗 Deployment (Hugging Face Spaces)
-
-For permanent hosting so recruiters and other developers can try the project online:
-*   This project is configured to run out-of-the-box on **Hugging Face Spaces**.
-*   **Demo URL Template:** `https://huggingface.co/spaces/3umrr/llm-semantic-book`
-*   *How to deploy:* Create a new Gradio Space on Hugging Face, upload `gradio_dashboard.py`, `books_with_emotions.csv`, `tagged_description.txt`, `cover-not-found.jpg`, and `requirements.txt`, then set your `GROQ_API_KEY` under the Space's Settings secrets.
-
----
 
 ## 🛠️ Technology Stack
 
