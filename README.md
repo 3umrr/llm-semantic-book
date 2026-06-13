@@ -14,20 +14,12 @@ A hybrid semantic book recommendation engine designed to find books based on nat
 
 ---
 
-## 🔗 Live Demos & Sharing
+## 🔗 Deployment (Hugging Face Spaces)
 
-### 1. Temporary Public Link (Local Host)
-When running the server locally, Gradio automatically generates a public, shareable link that allows anyone to access your local app instance remotely for 72 hours:
-```text
-* Running on local URL:  http://127.0.0.1:7860
-* Running on public URL: https://xxxxxxxxxxxxxx.gradio.live
-```
-
-### 2. Permanent Deployment (Hugging Face Spaces)
-For permanent hosting so recruiters and other developers can try the project anytime:
-*   This project is configured to run out-of-the-box on Hugging Face Spaces.
+For permanent hosting so recruiters and other developers can try the project online:
+*   This project is configured to run out-of-the-box on **Hugging Face Spaces**.
 *   **Demo URL Template:** `https://huggingface.co/spaces/3umrr/llm-semantic-book`
-*   *How to deploy:* Simply create a new Gradio Space on Hugging Face, upload `gradio_dashboard.py`, `books_with_emotions.csv`, `tagged_description.txt`, `cover-not-found.jpg`, and `requirements.txt`, then add your `GROQ_API_KEY` under the Space's Settings secrets.
+*   *How to deploy:* Create a new Gradio Space on Hugging Face, upload `gradio_dashboard.py`, `books_with_emotions.csv`, `tagged_description.txt`, `cover-not-found.jpg`, and `requirements.txt`, then set your `GROQ_API_KEY` under the Space's Settings secrets.
 
 ---
 
