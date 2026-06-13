@@ -1,0 +1,9 @@
+# Environment secrets
+.env
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Local Database Cache (Let Chroma DB generate this dynamically on launch to keep git repo light)
+chroma_db/
